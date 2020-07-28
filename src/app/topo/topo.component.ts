@@ -5,13 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './topo.component.html',
   styleUrls: ['./topo.component.css']
 })
-export class TopoComponent implements OnInit {
+export class TopoComponent {
 
   public titulo:string = 'Aprendendo Inglês'
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
